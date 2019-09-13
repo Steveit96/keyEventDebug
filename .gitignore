@@ -1,0 +1,11 @@
+
+  const char features[] = {"\n"
+"C_FEATURE:"
+#if ((__clang_major__ * 100) + __clang_minor__) >= 304
+"1"
+#else
+"0"
+#endif
+"c_function_prototypes\n"
+"C_FEATURE:"
+#if ((__clang_major__ * 100) + __clan
